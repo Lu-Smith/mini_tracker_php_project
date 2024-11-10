@@ -6,7 +6,7 @@
  {
     $files = [];
 
-    foreach(scandir(FILES_PATH) AS $file) 
+    foreach(scandir(FILES_PATH) as $file) 
     {
         var_dump($file);
     }
