@@ -8,6 +8,12 @@
 
     foreach(scandir(FILES_PATH) as $file) 
     {
-        var_dump($file);
+        if (is_dir($file)) {
+            continue;
+        }
+
+        $files[] = $file;
     }
+
+    return $files;
  }
