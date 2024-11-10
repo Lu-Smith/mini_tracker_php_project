@@ -10,6 +10,6 @@ define('VIEWS_PATH', $root . 'views' . DIRECTORY_SEPARATOR);
 
 require APP_PATH . 'App.php';
 
-$files = getTransactionFiles();
+$files = getTransactionFiles(FILES_PATH);
 
 var_dump($files);
