@@ -26,6 +26,8 @@
 
     $file= fopen($fileName,'r');
 
+    fgetcsv($file);
+
     $transactions = [];
 
     while (($transaction = fgetcsv($file)) !== false) {
