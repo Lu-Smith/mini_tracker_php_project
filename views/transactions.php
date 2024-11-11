@@ -24,6 +24,7 @@
         </style>
     </head>
     <body>
+        <h1>Procedural PHP</h1>
         <table>
             <thead>
                 <tr>
