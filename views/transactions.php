@@ -64,7 +64,7 @@
                 </tr>
                 <tr>
                     <th colspan="3">Net Total:</th>
-                    <td><?= formatDollarAmount($totals['netTotals']) ?? 0 ?></td>
+                    <td><?= formatDollarAmount($totals['netTotal']) ?? 0 ?></td>
                 </tr>
             </tfoot>
         </table>

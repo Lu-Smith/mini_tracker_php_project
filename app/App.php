@@ -57,7 +57,7 @@
     $totals = ['netTotal' => 0, 'totalIncome' => 0, 'totalExpense' => 0];
 
     foreach($transactions as $transaction) {
-        $totals['netTotals'] += $transaction['amount'];
+        $totals['netTotal'] += $transaction['amount'];
 
         if ($transaction['amount'] >= 0) {
             $totals['totalIncome'] += $transaction['amount'];
